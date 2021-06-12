@@ -1,0 +1,1 @@
+UPDATE messages set posted_on=1384895223, comments = comments + {'fiap': 'mba course!'} where id=103
