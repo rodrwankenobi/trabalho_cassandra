@@ -1,1 +1,1 @@
-UPDATE messages set posted_on=1384895223, comments = comments + {'fiap': 'mba course!'} where id=103
+UPDATE messages set comments = comments + {'fiap': 'mba course!'} where user_id=103 and posted_on=1384895223;
